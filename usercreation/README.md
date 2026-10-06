@@ -7,7 +7,8 @@ Yannis Bruneau, Tim Burgess
 Suivre le format suivant:
 ```Username;Group;OUDC
 testuser;testgroup;OU=users-pod4,DC=tlpod4,DC=local
-itTech;IT;OU=OU-IT,OU=users-pod4,DC=tlpod4,DC=local```
+itTech;IT;OU=OU-IT,OU=users-pod4,DC=tlpod4,DC=local
+```
 
 ## Script
 
