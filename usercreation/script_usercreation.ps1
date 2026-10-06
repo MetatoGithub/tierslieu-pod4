@@ -7,7 +7,7 @@ Write-Output "##################################"
 $userPasswords = (Read-Host -AsSecureString 'Enter password for every user:')
 $csvfilepath = (Read-Host 'Insert path to CSV (Format: Username;Group;OUDC)')
 
-$UsersList = Import-Csv -Path $csvfilepath -Delimiter ';' && Write-Output "########## CSV IMPORTED ##########" || Write-Output "######### CSV READ ERROR #########" | Exit
+$UsersList = Import-Csv -Path $csvfilepath -Delimiter ';' && Write-Output "########## CSV IMPORTED ##########" || (Write-Output "######### CSV READ ERROR #########" | Exit)
 
 Write-Output " "
 Write-Output "##################################"
