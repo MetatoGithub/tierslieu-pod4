@@ -4,4 +4,4 @@ Repo dedie aux scripts et autres fichiers du projet/contexte Tierslieu pour le g
 
 bonjours
 
-![Infra du reseau](http://github.com/metatogithub/tierslieu-pod4/blob/master/sources/infra.png"?raw=true)
+![Infra du reseau](http://github.com/metatogithub/tierslieu-pod4/blob/main/sources/infra.png"?raw=true)
